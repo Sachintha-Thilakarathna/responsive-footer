@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+:root{
+    --colorOne:#6451CE;
+    --colortwo:#1C2431;
+    --colorThree:#151B29;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.icons a:hover{
+    color: rgba(255, 166, 0, 0.664);
+}
+a:hover{
+    opacity: 0.8;
+}
+body{
+    font-family: 'roboto';
+}
+ul{
+    list-style: none;
+}
+footer{
+    color: #fff;
+}
+.border{
+    border: 2px solid red;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.one{
+    background-color: var(--colorOne);
+    padding: 25px 15px;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.two{
+    background-color: var(--colortwo);
+    padding: 25px 28px;
+}
+.two div{
+    width: 25%;
+}
+.icons{
+    gap: 20px;
+}
+h4{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.two p{
+    width: 80%;
+}
+li{
+    margin-bottom: 10px;
+}
+.three{
+    background-color: var(--colorThree);
+    padding: 25px 0px;
+    text-align: center;
+}
+.two i{
+    margin-right: 10px;
+}
+
+@media(max-width:850px){
+    .two div{
+        width: 50%;
+        margin: 10px 0px;
+    }
+}
+
+@media(max-width:570px){
+    .two div{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .icons{
+        margin-top: 20px;
+    }
+}
