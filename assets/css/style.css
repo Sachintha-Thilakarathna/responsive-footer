@@ -30,9 +30,6 @@ ul{
 footer{
     color: #fff;
 }
-.border{
-    border: 2px solid red;
-}
 .flex-container{
     display: flex;
     flex-wrap: wrap;
